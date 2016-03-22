@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                     b.putString("Cor", cor);
                     i.putExtras(b);
                     startActivity(i);
-                    finish();
             }
             else {
                 View focus = null;

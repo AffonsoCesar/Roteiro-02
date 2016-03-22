@@ -46,9 +46,6 @@ public class InglesActivity extends AppCompatActivity {
 
     }
     private void voltar () {
-
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
         finish();
     }
 }
